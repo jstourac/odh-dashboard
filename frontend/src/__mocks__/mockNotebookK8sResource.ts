@@ -71,8 +71,6 @@ export const mockNotebookK8sResource = ({
           'notebooks.opendatahub.io/inject-auth': 'true',
           'notebooks.opendatahub.io/last-image-selection': lastImageSelection,
           'notebooks.opendatahub.io/last-size-selection': 'Small',
-          'notebooks.opendatahub.io/oauth-logout-url':
-            'http://localhost:4010/projects/project?notebookLogout=workbench',
           'opendatahub.io/username': user,
           'openshift.io/description': description,
           'openshift.io/display-name': displayName,

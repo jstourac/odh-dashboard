@@ -131,7 +131,6 @@ export const assembleNotebook = (
         ...acceleratorProfileNamespace,
         'openshift.io/display-name': notebookName.trim(),
         'openshift.io/description': description || '',
-        'notebooks.opendatahub.io/oauth-logout-url': `${origin}/projects/${projectName}?notebookLogout=${notebookId}`,
         'notebooks.opendatahub.io/last-size-selection': lastSizeSelection || '',
         'notebooks.opendatahub.io/last-image-selection': imageSelection,
         'notebooks.opendatahub.io/inject-auth': 'true',
