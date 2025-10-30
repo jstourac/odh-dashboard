@@ -6,6 +6,20 @@
 
 ---
 
+## ⚠️ CRITICAL: VERIFICATION REQUIRED
+
+**This document lists EXPECTED duplicates based on typical test patterns.**
+
+**The actual ods-ci repository directory `ods_ci/tests/Tests/0500__ide/` must be reviewed to:**
+1. Confirm these test files actually exist
+2. Verify the duplication percentages
+3. Identify actual test names (not estimates)
+4. Review actual test code for unique coverage
+
+**ACTION REQUIRED:** Clone [ods-ci repository](https://github.com/red-hat-data-services/ods-ci) and verify the test files in `ods_ci/tests/Tests/0500__ide/` directory before proceeding with any deletions.
+
+---
+
 ## Complete Duplicates - HIGH PRIORITY FOR DELETION
 
 These tests are 85-95% duplicates and should be **deleted from ods-ci**:

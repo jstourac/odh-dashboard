@@ -370,8 +370,25 @@ Delete tests when ALL conditions are met:
 
 ---
 
-**Document Status:** Draft - Pending ODS-CI Code Verification  
-**Next Update:** After reviewing actual ods-ci test files  
+**Document Status:** ⚠️ REQUIRES ODS-CI DIRECTORY VERIFICATION  
+**Next Update:** After accessing actual ods-ci test files in `ods_ci/tests/Tests/0500__ide/`  
 **Owner:** QE Team  
 **Last Updated:** October 30, 2025
+
+---
+
+## ⚠️ IMPORTANT LIMITATION
+
+**This analysis is based on:**
+- ✅ Complete review of ODH-Dashboard Cypress tests (verified from actual code)
+- ❌ **Estimated/typical patterns** for ODS-CI tests (NOT verified from actual code)
+
+**To complete this analysis, you MUST:**
+1. Clone the ods-ci repository: `git clone https://github.com/red-hat-data-services/ods-ci.git`
+2. Navigate to: `cd ods-ci/ods_ci/tests/Tests/0500__ide/`
+3. List actual test files: `ls -la *.robot`
+4. Review actual test content to confirm duplication
+5. Update this document with verified findings
+
+**Until the actual ods-ci test files in the 0500__ide directory are reviewed, the recommendations in this document should be considered preliminary.**
 

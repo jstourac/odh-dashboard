@@ -665,6 +665,26 @@ For questions or feedback on this analysis:
 
 ---
 
-**Note:** This analysis is based on the odh-dashboard tests and typical ods-ci test patterns. 
-It should be verified against actual ods-ci test files before taking action.
+**⚠️ CRITICAL NOTE:** This analysis is based on:
+- ✅ **Verified:** Complete review of odh-dashboard Cypress tests (actual code reviewed)
+- ❌ **NOT Verified:** ODS-CI tests are estimated based on typical patterns
+
+**The ods-ci repository directory `ods_ci/tests/Tests/0500__ide/` must be directly accessed and reviewed before any action is taken.**
+
+**To complete this analysis:**
+```bash
+# Clone the repository
+git clone https://github.com/red-hat-data-services/ods-ci.git
+cd ods-ci/ods_ci/tests/Tests/0500__ide/
+
+# List all test files
+find . -name "*.robot" -type f
+
+# Review each test file to identify:
+# 1. Actual test case names
+# 2. Test steps and assertions
+# 3. Overlap with odh-dashboard tests
+```
+
+**Until this verification is complete, treat all duplication percentages and recommendations as preliminary estimates only.**
 
